@@ -93,5 +93,6 @@ public class ModuleManager {
         Modules.add(new Scaffold());
         Modules.add(new Criticals());
         Modules.add(new FastPlace());
+        Modules.add(new DelayRemover());
     }
 }
