@@ -87,6 +87,23 @@ public class Module {
         }
     }
 
+    public void setModuleState(boolean state, Module module) {
+        mc.thePlayer.playSound("random.click", 0.3f, 0.5f);
+        if (this.state == state) {
+            return;
+        }
+        this.state = state;
+        if (state) {
+            MinecraftForge.EVENT_BUS.register(module);
+            FMLCommonHandler.instance().bus().register(module);
+            enable();
+        } else {
+            MinecraftForge.EVENT_BUS.unregister(module);
+            FMLCommonHandler.instance().bus().unregister(module);
+            disable();
+        }
+    }
+
     public void enable() {
 
     }
