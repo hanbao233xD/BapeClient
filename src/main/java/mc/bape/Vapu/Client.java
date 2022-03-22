@@ -94,6 +94,7 @@ public class Client {
         ClientCommandHandler.instance.registerCommand(new WaterMark(Client.instance));
         ClientCommandHandler.instance.registerCommand(new saylocal(Client.instance));
         ClientCommandHandler.instance.registerCommand(new phone(Client.instance));
+        ClientCommandHandler.instance.registerCommand(new Toggle(Client.instance));
     }
 
     @SubscribeEvent
