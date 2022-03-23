@@ -126,8 +126,9 @@ public class VapeClickGui extends GuiScreen {
 
     @Override
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
-        FontLoaders.F18.drawStringWithShadow(Client.name + Client.version+" By " + Client.Team +" , credits: Medit_4 SuperSkidder LoRyu cubk", 5, 2, new Color(255, 255, 255).hashCode());
+        FontLoaders.F18.drawStringWithShadow(Client.name + Client.version+" By James_Tylor&Herry, credits: Medit_4 SuperSkidder LoRyu cubk", 5, 2, new Color(255, 255, 255).hashCode());
         FontLoaders.F18.drawStringWithShadow("Bape is a free client, if you pay any money for it means you got deceived.", 5, 14, new Color(255, 255, 255).hashCode());
+        FontLoaders.F18.drawStringWithShadow("Enter: /chelp in chat to get command help.", 5, 26, new Color(255, 255, 255).hashCode());
         super.drawScreen(mouseX, mouseY, partialTicks);
         ScaledResolution sResolution = new ScaledResolution(mc);
         ScaledResolution sr = new ScaledResolution(mc);
