@@ -1,6 +1,8 @@
 # BapeClient
 A Hot Agent Client for Minecraft1.8.9forge
 forked and optimize on VapuLite
+Discord: https://discord.gg/vbEbZVZKTV
+Pls join
 
 Bape-source.jar is a compressed file, you can directly unzip it,and bape-source is in it
 
