@@ -31,8 +31,7 @@ public class Client {
 
     public static String name = "Bape Reborn";
     public static String real_name = "BAPE";
-    public static String version = "2.23";
-    public static String Team = "BAPE Developer Team";
+    public static String version = "2.22";
     public static String config = "default";
 
     public static int Theme = new Color(0, 156, 161, 255).getRGB();
@@ -78,7 +77,6 @@ public class Client {
                 Helper.sendMessageWithoutPrefix("Bape Load done! Press RSHIFT open ClickGui, Press H Open HUD");
             }
         }
-
     }
 
     public static boolean nullCheck() {
@@ -95,6 +93,8 @@ public class Client {
         ClientCommandHandler.instance.registerCommand(new saylocal(Client.instance));
         ClientCommandHandler.instance.registerCommand(new phone(Client.instance));
         ClientCommandHandler.instance.registerCommand(new Toggle(Client.instance));
+        ClientCommandHandler.instance.registerCommand(new CHelp(Client.instance));
+
     }
 
     @SubscribeEvent
