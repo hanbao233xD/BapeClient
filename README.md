@@ -14,7 +14,7 @@ Bape-source.jar is a compressed file, you can directly unzip it,and bape-source 
 > **Please upload logs**
 
 ## Links
-- [Bape Website](https://bapeclient.xyz/)
+- [Bape Website](http://bapeclient.xyz/)
 - [Bape Discord](https://discord.gg/vbEbZVZKTV)
 
 Special thanks: Medit_4 SuperSkidder LoRyu ForgeGuys cubk
