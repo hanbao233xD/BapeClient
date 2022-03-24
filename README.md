@@ -7,7 +7,7 @@ Pls join
 
 Bape-source.jar is a compressed file, you can directly unzip it,and bape-source is in it
 
-WARNING
+`WARNING`
 
 The completion degree of this client is very low and very unstable
 
@@ -18,6 +18,26 @@ Please update logs
 Special thanks: Medit_4 SuperSkidder LoRyu ForgeGuys cubk
 
 Bape is open source under the GNU GENERAL PUBLIC LICENSE The starting point of GPL is the open source / free use of code and the open source / free use of reference / modification / derivative code, but the modified and derivative code is not allowed to be published and sold as closed source commercial software.
+
+##ExampleModule
+
+```javascript
+package gq.vapulite.Vapu.modules;
+
+import ModuleType;
+import org.lwjgl.input.Keyboard;
+
+public class ExampleModule extends Module {
+    public ExampleModule() {
+        super("ExampleModule", Keyboard.Keybind, ModuleType.ModuleType,"Description");
+        //Chinese language
+        Chinese="ExampleModule";
+    }
+    
+    //your facing code etc here.
+
+}
+```
 
 GNU 通用公共授权
 
