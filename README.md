@@ -2,18 +2,20 @@
 ## A Hot Agent Client for Minecraft1.8.9forge
 ### forked and optimize on VapuLite
 ![image](https://github.com/BapeDeveloperTeam/BapeClient/blob/main/info.png)
-Discord: https://discord.gg/vbEbZVZKTV
-Pls join
 
 Bape-source.jar is a compressed file, you can directly unzip it,and bape-source is in it
 
-`WARNING`
+> **WARNING**
+> 
+> The completion degree of this client is very low and very **unstable**
+> 
+> If you encounter a crash during use, you can feed back to issue
+> 
+> **Please upload logs**
 
-The completion degree of this client is very low and very unstable
-
-If you encounter a crash during use, you can feed back to issue
-
-Please update logs
+## Links
+- [Bape Website](https://bapeclient.xyz/)
+- [Bape Discord](https://discord.gg/vbEbZVZKTV)
 
 Special thanks: Medit_4 SuperSkidder LoRyu ForgeGuys cubk
 
