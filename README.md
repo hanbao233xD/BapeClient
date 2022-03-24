@@ -1,7 +1,7 @@
 # BapeClient
 ## A Hot Agent Client for Minecraft1.8.9forge
 ### forked and optimize on VapuLite
-
+![image](https://github.com/BapeDeveloperTeam/BapeClient/blob/main/info.png)
 Discord: https://discord.gg/vbEbZVZKTV
 Pls join
 
